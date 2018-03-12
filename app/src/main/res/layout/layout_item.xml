@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/duorouziwu">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|bottom"
+        android:text="什么都不必说"
+        android:textColor="#ffffff"
+        android:paddingBottom="8dp"
+        android:background="#99cccccc"
+        />
+    </RelativeLayout>
+</LinearLayout>
